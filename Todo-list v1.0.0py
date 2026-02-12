@@ -31,4 +31,5 @@ while not exit:
 
 #Adding tasks 
     else:
+
         todo.append(newtodo)
