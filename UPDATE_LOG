@@ -1,12 +1,16 @@
 UPDATE LOG
 
+v1.2.0
+  -Added an edit command and an exit command
+  -Improved overall error handling
+
 v1.1.1
-  Fixed a bug where the program would crash when entering an invalid index number when deleting from the list
-  Changed the starting count of index from 0 to 1. (Well not really, just made it choose the one behind it)
+  -Fixed a bug where the program would crash when entering an invalid index number when deleting from the list
+  -Changed the starting count of index from 0 to 1. (Well not really, just made it choose the one behind it)
 
 v1.1.0
-  Added deleting specific items through a !delete command
+  -Added deleting specific items through a !delete command
 
 v1.0.0
-  First version of the program
-  Added adding objectives, clearing and a help command
+ - First version of the program
+  -Added adding objectives, clearing and a help command
