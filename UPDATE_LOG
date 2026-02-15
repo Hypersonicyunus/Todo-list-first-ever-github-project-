@@ -1,5 +1,8 @@
 UPDATE LOG
 
+v2.0.0
+  ADDED GUI!!!
+
 v1.2.0
   -Added an edit command and an exit command
   -Improved overall error handling
