@@ -1,0 +1,59 @@
+#Initialization
+todo = []
+from tkinter import *
+import customtkinter
+
+#GUI
+
+#Setting theme and coloUr options
+customtkinter.set_appearance_mode("System")  # Modes: system (default), light, dark
+customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
+#Yes, i took this from the doccumentation >:)
+
+#GUI INITIALIZATION
+app = customtkinter.CTk()
+
+app.title('WOW VERY GOOD AND RELIABLE TODO LIST W.V.G.A.R.T.L') #app title
+app.geometry('600x600') #window size
+
+#Function to add stuff into the list
+def addthing(event):
+  text = Enterbox.get() #Gets text from the box
+  todo.append(text) #Adds text
+  Enterbox.delete(0, 'end') #Deletes the text inside of enterbox after pressing enter
+  update_display()
+
+#Function to update display thing for the textbox ifykyk
+def update_display():
+  listboxthing.configure(state=NORMAL)
+  listboxthing.delete("1.0", "end")
+  for item in todo:
+    listboxthing.insert("end", item + "\n")
+  listboxthing.configure(state=DISABLED)
+
+#Function for clearlist button to actually work
+def clear_action():
+  listboxthing.configure(state=NORMAL)
+  todo.clear()
+  listboxthing.delete("1.0", "end")
+  listboxthing.configure(state=DISABLED)
+
+#Enterbox code
+Enterbox = customtkinter.CTkEntry(app, placeholder_text="Enter items here: ")
+Enterbox.bind("<Return>", addthing) #Binds the enter key to the addthing function
+Enterbox.grid(row=1, column=0, columnspan=1, padx=10, sticky=EW)
+
+#List textbox code
+listboxthing = customtkinter.CTkTextbox(app, state=DISABLED)
+listboxthing.grid(row=0, column=0, columnspan=2, padx=10, sticky=NSEW)
+
+#Clear list button code
+clearlistbutton = customtkinter.CTkButton(app, text="Clear all", command=clear_action)
+clearlistbutton.grid(row=1, column=1, padx=10, pady=10)
+
+# Make the grid cell expandable
+app.grid_rowconfigure(0, weight=1)  # Textbox row gets extra space
+app.grid_rowconfigure(1, weight=0)  # Entry box stays fixed
+app.grid_columnconfigure(0, weight=1)
+
+app.mainloop()
