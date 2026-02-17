@@ -6,9 +6,6 @@ Hello! This is my first ever app that i have ever made! This README file is just
 -Use !help for any help
 
 (FOR VERSIONS 2.0.0 - 2.1.1)
-Install customtinker in the command prompt (if you already haven't)
+Install customtkinter in the command prompt (if you already haven't)
 Thing to run in the command prompt: pip install customtkinter
 After its installed, just run the program and enjoy!
-
-(FOR VERSIONS 2.2.0+)
-Just install the app and run it, its in an .EXE file so theres nothing to worry about!
