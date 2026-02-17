@@ -1,6 +1,15 @@
 UPDATE LOG
+v2.1.0
+  Changed the textbox for displaying items into checkboxes
+  Made checking checkboxes remove itself!
 
 v2.0.0
+  Added functional gui!!
+  Added Enter box for adding items
+  Added text box for displaying items!
+  Added clear button
+
+v2.0.0-pre
   ADDED GUI!!!
 
 v1.2.0
