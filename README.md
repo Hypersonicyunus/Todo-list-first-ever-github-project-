@@ -1,4 +1,4 @@
-Hello! This is my first ever app that i have ever made! This README file is just gonna teach u how to use it on different versions.
+Hello! This is my first app that I have ever made! This README file is just gonna teach u how to use it on different versions.
 
 (FOR VERSIONS 1.0.0 - 1.2.0)
 -Make sure you have python installed
