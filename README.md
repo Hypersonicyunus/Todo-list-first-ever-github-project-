@@ -1,3 +1,14 @@
-I'm very new to github so excuse me for my poor use of this webiste, I just wanted to showcase my current skills as a new begginer to python, and how I strive to become a real programmer one day. If you have any suggestions, I'll try to implement them as I would also like to learn more about python and github. Thank you!
+Hello! This is my first ever app that i have ever made! This README file is just gonna teach u how to use it on different versions.
 
-(P.S I use AI, specifically Claude, to ASSIST me with my programming, and asking it to teach me things i dont understand. I will NEVER ask it to generate code for me.
+(FOR VERSIONS 1.0.0 - 1.2.0)
+-Make sure you have python installed
+-Run the program
+-Use !help for any help
+
+(FOR VERSIONS 2.0.0 - 2.1.1)
+Install customtinker in the command prompt (if you already haven't)
+Thing to run in the command prompt: pip install customtkinter
+After its installed, just run the program and enjoy!
+
+(FOR VERSIONS 2.2.0+)
+Just install the app and run it, its in an .EXE file so theres nothing to worry about!
