@@ -1,4 +1,8 @@
 UPDATE LOG
+v2.2.0
+  -Added completed section
+  -Made into .exe file!
+
 v2.1.1
   -Patched a bug where you could make "ghost" checkboxes, meaning that you can just keep spamming enter and add checkboxes
   -Made the frame scrollable
