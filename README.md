@@ -9,3 +9,8 @@ Hello! This is my first app that I have ever made! This README file is just gonn
 Install customtkinter in the command prompt (if you already haven't)
 Thing to run in the command prompt: pip install customtkinter
 After its installed, just run the program and enjoy!
+
+
+- 16/03/2026
+  This project is discontinued, thanks for viewing and trying it out!
+  l'll probably move on to other different stuff, and make different projects, and learn different programing languageds.
