@@ -10,6 +10,8 @@ Install customtkinter in the command prompt (if you already haven't)
 Thing to run in the command prompt: pip install customtkinter
 After its installed, just run the program and enjoy!
 
+(FOR VERSIONS 2.2.0)
+Runs perfectly out of the box
 
 - 16/03/2026
   This project is discontinued, thanks for viewing and trying it out!
